@@ -1,0 +1,27 @@
+{
+  "name": "emplolyee-managemnet-system",
+  "version": "1.0.0",
+  "description": "Create 2 collections:  1. Companies  2. Employees     -Each Employee should belong to a particular company (implement the join logic)      -Companies collection should have a field called 𝐧𝐮𝐦𝐛𝐞𝐫_𝐨𝐟_𝐞𝐦𝐩𝐥. This field should be incremented whenever a new employee is added to the particular Company",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ti-saurabh/Emplolyee-Managemnet-System.git"
+  },
+  "author": "saurabh",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ti-saurabh/Emplolyee-Managemnet-System/issues"
+  },
+  "homepage": "https://github.com/ti-saurabh/Emplolyee-Managemnet-System#readme",
+  "dependencies": {
+    "express": "^4.18.2",
+    "heroku": "^7.67.1",
+    "jsonwebtoken": "^9.0.0",
+    "mongoose": "^6.8.1",
+    "nodemon": "^2.0.20"
+  }
+}
